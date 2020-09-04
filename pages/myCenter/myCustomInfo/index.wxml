@@ -1,0 +1,49 @@
+<!--pages/myCenter/myCustomInfo/index.wxml-->
+<!-- nodata -->
+<view class="myCustomerInfo">
+  <view class="customerInfo_main">
+    <i-notice-bar icon="systemprompt" loop>
+      为了保证您的商品顺利通关，请提交付款人身份信息，以免影响您的收获
+    </i-notice-bar>
+    <view wx:if="{{customerInfo.length===0}}">
+      <h_nodata tips='清关信息空空如也~' img="{{img}}"></h_nodata>
+      <view class="addInfo">
+        新增信息
+      </view>
+    </view>
+    <view class="customerList" wx:else>
+      <view class="single_customer" wx:for="{{customerInfo}}"
+        wx:for-index="index" wx:for-item="item" wx:key="index"
+      >
+        <view class="customer_name">
+          付款人身份证姓名: {{item.name}}
+          <view class="default" wx:if="{{item.status===1}}">默认</view>
+        </view>
+        <view class="customer_name">
+          付款人身份证号码: {{item.idCard}}
+        </view>
+        <view class="infoOpera">
+          <view class="opera">
+            <image src="../../../images/myCenter/editIcon.png"></image>
+            <text>编辑</text>
+          </view>
+          <view class="opera">
+            <image src="../../../images/myCenter/deleteIcon.png"></image>
+            <text>删除</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="addInfo1" bindtap="shoModel">
+      新增信息
+    </view>
+  </view>
+  <i-modal title="新增清关信息" visible="{{ visible }}" bind:ok="handleConfirm" bind:cancel="handleClose">
+    <!-- 
+      <i-input>组件要加上maxlength属性，不然在微信开发者工具里不能输入值
+    -->
+    <i-input value="{{ name }}" title="身份证姓名" autofocus placeholder="请输入身份证姓名" bind:change="changeInput" data-name="name" maxlength="{{100}}" />
+    <i-input value="{{ idCard }}" title="身份证号码" autofocus placeholder="请输入身份证号码" type="number" bind:change="changeInput" data-name="number" maxlength="{{18}}"/>
+  </i-modal>
+</view>
+

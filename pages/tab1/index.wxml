@@ -1,0 +1,5 @@
+<!--pages/tab1.wxml-->
+<view>
+  <view bindtap="toShopDetail">商品</view>
+  <view bindtap="toMyUserInfo">个人信息</view>
+</view>
