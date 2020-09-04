@@ -1,0 +1,91 @@
+<!--pages/tab4/index.wxml-->
+<view class="tab4_main">
+	<view class="top_bg">
+		<view class="myAvatar">
+			<view class="myAvatar_img">
+				<image src="../../images/myCenter/avatarIcon.png" />
+			</view>
+			<view class="myAvatar_text">
+				<view class="login">点击登录</view>
+				<view class="level">第一等级</view>
+			</view>
+		</view>
+
+		<view class="myAbout">
+			<view class="myInter" wx:for="{{myInterList}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+				<view class="number">{{item.number}}</view>
+				<view class="text">{{item.name}}</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="myOrder">
+		<view class="order_title">
+			<view class="title">我的订单</view>
+			<view class="all_title">
+				全部订单
+				<i-icon type="enter" />
+			</view>
+		</view>
+		<view class="order_list">
+			<view class="order_detail">
+				<image src="../../images/myCenter/waitPayIcon.png" />
+				<view class="">待付款</view>
+			</view>
+			<view class="order_detail">
+				<image src="../../images/myCenter/deliveredIcon.png" />
+				<view class="">待发货</view>
+			</view>
+			<view class="order_detail">
+				<image src="../../images/myCenter/receivedIcon.png" />
+				<view class="">待收货</view>
+			</view>
+			<view class="order_detail">
+				<image src="../../images/myCenter/refundIcon.png" />
+				<view class="">退款</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="goShop" style="background-image:url(../../../../images/myCenter/goShopBg.png)">
+		<view class="goShop_text">
+			<view>
+				<view class="goShop_title">全球正品，体验先行</view>
+				<view class="goShop_note">100%正品货源,海外直邮</view>
+			</view>
+			<view class="goShop_btn">
+				前往购物
+			</view>
+		</view>
+	</view>
+
+	<view class="myService">
+		<view class="myService_title">
+			<view class="title">我的服务</view>
+		</view>
+    <view class="myService_list">
+			<view class="myService_detail">
+				<image src="../../images/myCenter/addressIcon.jpg" />
+				<view>地址管理</view>
+			</view>
+			<view class="myService_detail" bindtap="toCustomer">
+				<image src="../../images/myCenter/customInfoIcon.jpg" />
+				<view>清关信息</view>
+			</view>
+      <view class="myService_detail">
+				<image src="../../images/myCenter/personInfoIcon.jpg" />
+				<view>个人信息</view>
+			</view>
+      <view class="myService_detail">
+				<image src="../../images/myCenter/attentionIcon.jpg" />
+				<view>关注我们</view>
+			</view>
+      <view class="myService_detail">
+        <image src="../../images/myCenter/serviceIcon.jpg" />
+        <view>联系客服</view>
+      </view>
+		</view>
+    
+	</view>
+
+</view>

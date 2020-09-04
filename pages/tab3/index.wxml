@@ -1,0 +1,8 @@
+<!--pages/tab3/index.wxml-->
+
+<!-- nodata -->
+<h_nodata tips='购物车空空如也~' img="{{img}}"></h_nodata>
+
+<view class="wanderAround">
+  去逛逛
+</view>

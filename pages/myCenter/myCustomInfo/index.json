@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "h_nodata": "../../../component/h_nodata/h_nodata",
+    "i-modal": "../../../dist/modal/index",
+    "i-notice-bar": "../../../dist/notice-bar/index",
+    "i-input": "../../../dist/input/index"
+  },
+  "navigationBarTitleText": "清关信息"
+}

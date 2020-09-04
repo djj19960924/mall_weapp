@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "h_nodata": "../../component/h_nodata/h_nodata"
+  }
+}

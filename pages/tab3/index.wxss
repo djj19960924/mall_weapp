@@ -1,0 +1,14 @@
+/* pages/tab3/index.wxss */
+
+.wanderAround {
+  width: 350rpx;
+  height: 75rpx;
+  background-color: #000;
+  color: #fff;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 75rpx;
+  position: absolute;
+  left: 200rpx;
+  top: 700rpx
+}
