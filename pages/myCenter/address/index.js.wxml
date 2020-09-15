@@ -1,0 +1,35 @@
+<!--pages/myCenter/address/index.js.wxml-->
+<view wx:if="{{!arr.length}}">
+  <h_nodata tips='暂无地址~' img="{{img}}" ></h_nodata>
+  <view class="addAddress">
+    <view class="no_address_text">新增地址</view>
+  </view>
+</view>
+<view class="address" wx:else>
+	<view class="addresList" wx:for="{{arr}}" wx:for-item="item" wx:key="item">
+		<view class="address_info" >
+			<view class="info_top">
+				<view>{{item.name}}</view>
+				<view>{{item.phone}}</view>
+			</view>
+			<view class="info_middle">
+				<view wx:if="{{item.status===1}}" class="default">默认</view>
+				<view wx:else />
+        {{item.address}}
+			</view>
+			<view class="info_bottom">
+				<view class="delete">
+					<image src="../../../images/myCenter/deleteIcon.png" />
+          <text>删除</text>
+				</view>
+				<view class="edit">
+					<image src="../../../images/myCenter/editIcon.png" />
+          <text>编辑</text>
+				</view>
+			</view>
+		</view>
+	</view>
+  <view class="addAddress">
+    <view class="address_text">新增地址</view>
+  </view>
+</view>

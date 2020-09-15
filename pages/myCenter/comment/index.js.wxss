@@ -1,0 +1,144 @@
+/* pages/myCenter/comment/index.js.wxss */
+.comment {
+  font-size: 28rpx;
+}
+.top_title {
+  background-color: #000;
+  color: #EADCC0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 175rpx;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+.big_titile  {
+  font-size: 38rpx;
+}
+
+.comment_sort {
+  display: flex;
+  margin-top: 20rpx;
+  border-bottom:1rpx solid #F4F4F4;
+  
+}
+.tabs{
+  padding: 0 10px;
+  text-align: center;
+}
+.itabs{
+  margin: 0 30rpx;
+}
+.shopList {
+  width: 100%;
+}
+.shopList:last-child {
+  padding-bottom: 160rpx;
+}
+.singleShop {
+  margin:20rpx;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+.status {
+  color: #F77676;
+}
+.shopDetail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #F6F6F6;
+  padding-bottom: 10rpx;
+}
+.shopDetail image {
+  width:140rpx;
+  height: 140rpx;
+  margin-right: 40rpx;
+}
+.shopDetail .detail .name{
+  height: 80rpx;
+}
+.detail .price {
+  margin: 10rpx 0 0 0;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #FF2020;
+}
+.tax {
+  display: flex;
+  justify-content: space-between;
+  color: #A9A9A9;
+  font-size: 24rpx;
+}
+.tax .number{
+  color: #000;
+}
+.all_price {
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.goComment {
+  display: flex;
+  justify-content: flex-end;
+}
+.goComment view {
+  width: 150rpx;
+  height: 40rpx;
+  text-align: center;
+  background-color: #000;
+  line-height: 40rpx;
+  color: #FFF;
+}
+.blank_line {
+  margin-top: 40rpx;
+  background-color: #F6F7F9;
+  height: 20rpx;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .wait_comment {
+  margin: 0 100rpx 0 235rpx;
+  height: 65rpx;
+  width: 88rpx;
+}
+.wait_comment_selected {
+  margin: 0 100rpx 0 235rpx;
+  height: 65rpx;
+  width: 88rpx;
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+}
+.already_comment {
+  height: 65rpx;
+  width: 88rpx;
+}
+.already_comment_selected {
+  height: 65rpx;
+  width: 88rpx;
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+} */
+

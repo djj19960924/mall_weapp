@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-tabs": "../../../dist/tabs/index",
+    "i-tab": "../../../dist/tab/index"
+  },
+  "disableScroll": true,
+  "navigationBarTitleText": "我的评价"
+}

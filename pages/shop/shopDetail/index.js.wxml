@@ -1,0 +1,88 @@
+<!--pages/shop/shopDetail/index.js.wxml-->
+<view class="shopDetail">
+	<!-- banner -->
+	<view class='banner'>
+		<!-- swiper -->
+		<swiper indicator-dots="true" circular="true" class='swiper1p'>
+			<block wx:for="{{banners}}" wx:key="item">
+				<swiper-item>
+					<image mode='aspectFill' src="{{item}}" class="swiper1" />
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+  <view class="shop_info">
+    <view class="shop_title">
+      <view class="text">赫莲娜(HR)绿宝瓶面霜悦活新生修护精华露绿宝瓶轻乳霜 面霜50ml</view>
+      <view class="collect">
+        <image src="../../../images/shop/collectIcon.png"></image>
+        <view>收藏</view>
+      </view>
+    </view>
+    <view class="shop_price">
+      <view class="">
+        <view class="">
+          <text class="sale_price">￥514</text>
+          <text class="sale_note">包邮包税</text>
+        </view>
+        <view class="shop_tax">
+          含跨境税：￥0 
+          <image src="../../../images/shop/glossIcon.png"></image>
+        </view>
+      </view>
+      <view class="shop_share">
+        <image src="../../../images/shop/shareIcon.png"></image>
+        分享
+      </view>
+    </view>
+
+    <view class="">
+      
+    </view>
+  </view>
+  
+  <view class="blank_line" />
+
+  <view class="shop_comment">
+    <view class="comment_title">
+      评价 (21)
+      <image src="../../../images/shop/arrowIcon.png"></image>
+    </view>
+    <view class="comment_avatar">
+      <view class="avatar">
+        <image src="../../../images/shop/avatar.png"></image>
+        <text>圆圆****</text>
+      </view>
+      <view>
+        <i-rate disabled="{{true}}" value="5" size="16">
+          <text style="font-size:26rpx">超级推荐</text>
+        </i-rate>
+      </view>
+    </view>
+    <view class="comment_content">
+      买了一瓶用了一个月，又下单一瓶，太好用了，清爽不油腻，细腻毛孔，推荐给敏感肌。。
+    </view>
+  </view>
+  <view class="blank_line" />
+  
+	<view class="detail_bottom">
+		<view class="bottom_nav">
+			<view class="nav_list">
+				<view class="nav_img">
+					<image src="../../../images/tabImages/homeIcon.png"></image>
+					<view>首页</view>
+				</view>
+				<view class="nav_img nav_cart">
+					<image src="../../../images/tabImages/cartIcon.png"></image>
+					<view>购物车</view>
+					<view class="cart_badge">3</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom_func">
+			<view class="add_cart">加入购物车</view>
+			<view class="shortly_buy">立即购买</view>
+		</view>
+	</view>
+
+</view>

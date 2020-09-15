@@ -1,0 +1,55 @@
+/* pages/myCenter/address/myAddress/index.js.wxss */
+.myAddress {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.address_msg {
+  display: flex;
+  align-items: center;
+  background: white;
+  margin: 0 20rpx;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #f3f3f3;
+}
+.address_msg:last-child {
+  border-bottom: none;
+}
+.item_msg {
+  width: 22%;
+}
+.address_note {
+  margin: 20rpx;
+  background-color: #EEEEEE;
+  height: 170rpx;
+}
+.address_note textarea {
+  padding: 20rpx;
+  width: 96%;
+  height: 160rpx;
+  font-size: 26rpx;
+}
+.address_check {
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+  background: white;
+  justify-content: space-between;
+}
+.address_check_title {
+  font-size: 32rpx;
+}
+
+.addAddress {
+  width: 100%;
+  text-align: center;
+}
+.address_text {
+  margin-top: 180rpx;
+  width: 370rpx;
+  height: 70rpx;
+  text-align: center;
+  background-color: #000;
+  color: #FFF;
+  line-height: 70rpx;
+  display: inline-block;
+}

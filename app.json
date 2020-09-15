@@ -1,6 +1,10 @@
 {
   "pages": [
-    "pages/myCenter/myCustomInfo/index",
+    "pages/shop/shopDetail/index.js",
+    "pages/myCenter/address/myAddress/index.js",
+    "pages/myCenter/address/index.js",
+    "pages/myCenter/comment/index.js",
+    "pages/myCenter/comment/myComment/index.js",
     "pages/tab4/index",
     "pages/tab1/index",
     "pages/tab2/index",
@@ -8,15 +12,7 @@
     "pages/index/index"
   ],
   "subpackages": [
-    {
-      "root": "pages/shop",
-      "name": "shop",
-      "pages": [
-        "shopDetail/index"
-      ]
-    }
   ],
-
   "window": {
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "跨境商城",

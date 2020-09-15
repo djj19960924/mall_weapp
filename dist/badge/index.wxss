@@ -1,1 +1,51 @@
-.i-badge{position:relative;display:inline-block;line-height:1;vertical-align:middle}.i-badge-count{position:absolute;transform:translateX(50%);top:-6px;right:0;height:18px;border-radius:9px;min-width:18px;background:#ed3f14;border:1px solid transparent;color:#fff;line-height:18px;text-align:center;padding:0 5px;font-size:12px;white-space:nowrap;transform-origin:-10% center;z-index:10;box-shadow:0 0 0 1px #fff;box-sizing:border-box;text-rendering:optimizeLegibility}.i-badge-count-alone{top:auto;display:block;position:relative;transform:translateX(0)}.i-badge-dot{position:absolute;transform:translateX(-50%);transform-origin:0 center;top:-4px;right:-8px;height:8px;width:8px;border-radius:100%;background:#ed3f14;z-index:10;box-shadow:0 0 0 1px #fff}
+.i-badge {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle
+}
+
+.i-badge-count {
+  position: absolute;
+  top: -20rpx;
+  right: -28rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  width: 30rpx;
+  background: #ed3f14;
+  border: 1px solid transparent;
+  color: #fff;
+  line-height: 30rpx;
+  text-align: center;
+  font-size: 24rpx;
+  /* padding: 0 5px;
+  transform: translateX(50%);
+  font-size: 22rpx;
+  white-space: nowrap;
+  transform-origin: -10% center;
+  z-index: 10;
+  box-shadow: 0 0 0 1px #fff;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility */
+}
+
+.i-badge-count-alone {
+  top: auto;
+  display: block;
+  position: relative;
+  transform: translateX(0)
+}
+
+.i-badge-dot {
+  position: absolute;
+  transform: translateX(-50%);
+  transform-origin: 0 center;
+  top: -4px;
+  right: -8px;
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  background: #ed3f14;
+  z-index: 10;
+  box-shadow: 0 0 0 1px #fff
+}

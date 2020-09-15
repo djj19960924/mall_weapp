@@ -1,0 +1,61 @@
+/* pages/myCenter/address/index.js.wxss */
+.address {
+  font-size: 28rpx;
+  color: #000;
+  width: 100%;
+}
+
+.address_info {
+  margin: 20rpx;
+}
+.info_top {
+  display: flex;
+  justify-content:space-between;
+}
+.info_middle .default{
+  display: inline-block;
+  width: 80rpx;
+  height: 30rpx;
+  background: #DBC191;
+  color: #FFF;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 30rpx;
+}
+.info_bottom {
+  display: flex;
+  flex-direction:row-reverse;
+  font-size: 24rpx;
+  color: #B2B2B2;
+}
+.info_bottom image {
+  width: 28rpx;
+  height: 28rpx;
+  margin:0 15rpx 0 40rpx;
+  vertical-align: text-bottom;
+}
+
+.addAddress {
+  width: 100%;
+  text-align: center;
+}
+.address_text {
+  margin-top: 180rpx;
+  width: 370rpx;
+  height: 70rpx;
+  text-align: center;
+  background-color: #000;
+  color: #FFF;
+  line-height: 70rpx;
+  display: inline-block;
+}
+.no_address_text {
+  margin-top: 800rpx;
+  width: 370rpx;
+  height: 70rpx;
+  text-align: center;
+  background-color: #000;
+  color: #FFF;
+  line-height: 70rpx;
+  display: inline-block;
+}
