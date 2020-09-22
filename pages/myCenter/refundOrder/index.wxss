@@ -1,0 +1,41 @@
+/* pages/myCenter/refundOrder/index.wxss */
+.refundOrder {
+  font-size: 28rpx;
+}
+.order_list {
+  width: 100%;
+}
+.order_list:last-child {
+  margin-bottom: 50rpx;
+}
+.single_order {
+  margin: 20rpx 30rpx;
+}
+.order_time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.look_detail {
+  text-align: right;
+  margin-top: 30rpx;
+}
+.look_order {
+  display: inline-block;
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.cancel_order {
+  display: inline-block;
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-right: 20rpx;
+  color: #9E9E9E;
+  border: 1rpx solid #9E9E9E;
+  text-align: center;
+}

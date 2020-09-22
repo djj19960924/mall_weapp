@@ -1,0 +1,33 @@
+<!--pages/order/index.wxml-->
+<view class="order">
+  <view class='search box_top'>
+    <view style='position:relative;width: calc(100%)'>
+      <input bindinput='inputSearch' class='searchInput' placeholder='请输入搜索内容' placeholder-class='searchPlaceholder'></input>
+      <view bindtap='tapSearch' class='searchBtn'>
+        <i-icon size='20' color='#8F8F8F' type="search" />
+      </view>
+    </view>
+  </view>
+  <view class="tabs box_top">
+    <i-tabs current="{{current}}" bindchange="handleChangeScroll" color="#000">
+      <i-tab i-class="itabs" wx:for="{{typeList}}" key="{{item.id}}" title="{{item.name}}" wx:key="id" count="3"></i-tab>
+    </i-tabs>  
+  </view>
+
+  <scroll-view wx:if="{{arr.length}}" style="height:{{scrollheight}}px" scroll-y="true" bindscrolltolower="more">
+    <view class="order_list" wx:for="{{orderList}}" wx:key="item">
+      <view class="single_order">
+        <view class="order_time">
+          <text>下单时间：2020-03-31 17:31:41</text>
+          <text style="color:#F87170">等待收货</text>
+        </view>
+        <h_shopList shopList="{{shopList}}"/>
+        <view class="look_detail">
+          <text class="look_order">确认收货</text>
+        </view>
+      </view>
+      <h_blankLine />
+    </view>
+  </scroll-view>
+  
+</view>

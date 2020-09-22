@@ -15,7 +15,8 @@
     <view class="shop_title">
       <view class="text">赫莲娜(HR)绿宝瓶面霜悦活新生修护精华露绿宝瓶轻乳霜 面霜50ml</view>
       <view class="collect">
-        <image src="../../../images/shop/collectIcon.png"></image>
+        <view class="iconfont icontubiaozhizuomoban"></view>
+        <!-- <image src="../../../images/shop/collectIcon.png"></image> -->
         <view>收藏</view>
       </view>
     </view>
@@ -35,9 +36,18 @@
         分享
       </view>
     </view>
-
-    <view class="">
-      
+    <view class="cart_selected">
+      <view class="selected_text">已选</view>
+      <view class="number">
+        <text class="subtract">-</text>
+        <text>1</text>
+        <text class="add">+</text>
+      </view>
+    </view>
+    <view class="basic_info">
+      <view>基本信息</view>
+      <view class="iconfont icondibudaohanglan-"></view>
+      <!-- <view><image src="../../../images/shop/arrowIcon.png"></image></view> -->
     </view>
   </view>
   
@@ -46,7 +56,8 @@
   <view class="shop_comment">
     <view class="comment_title">
       评价 (21)
-      <image src="../../../images/shop/arrowIcon.png"></image>
+      <view class="iconfont icondibudaohanglan-"></view>
+      <!-- <image src="../../../images/shop/arrowIcon.png"></image> -->
     </view>
     <view class="comment_avatar">
       <view class="avatar">
@@ -65,6 +76,10 @@
   </view>
   <view class="blank_line" />
   
+  <view class="detail_intor">
+    <view class="intor_title">商品详情</view>
+  </view>
+
 	<view class="detail_bottom">
 		<view class="bottom_nav">
 			<view class="nav_list">

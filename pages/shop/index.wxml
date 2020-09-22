@@ -1,0 +1,30 @@
+<!--pages/shop/index.wxml-->
+<view class="shop">
+  <view class='search '>
+    <view style='position:relative;width: calc(100%)'>
+      <input bindinput='inputSearch' class='searchInput' placeholder='请输入关键词搜索商品' placeholder-class='searchPlaceholder'></input>
+      <view bindtap='tapSearch' class='searchBtn'>
+        <i-icon size='20' color='#8F8F8F' type="search" />
+      </view>
+    </view>
+  </view>
+  <view class="tab">
+    <view class="default selected">默认</view>
+    <view class="sort">
+      价格
+      <image src="../../images/shop/priceIcon.png"></image>
+    </view>
+  </view>
+  <view class="blank_line box_top" />
+  <scroll-view wx:if="{{shopList.length}}" style="height:{{scrollheight}}px" scroll-y="true" class="scrllo_H " >
+    <view class="shopList">
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

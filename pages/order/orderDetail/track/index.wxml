@@ -1,0 +1,17 @@
+<!--pages/order/orderDetail/track/index.wxml-->
+<view class="track">
+  <view class="track_orderSn">
+    订单编号: BHON00001
+  </view>
+  <view class="track_content">
+    您的订单已清关成功，已交由国内中通快递发货，快递单号为
+    <text style="color:#F65756">52135168231</text>,可进入快递100查询物流进度
+    <view class="time">2020-06-24 10:17:50</view>
+  </view>
+  <view class="track_content">
+    您的订单正向海关申报，单号为
+    <text style="color:#F65756">770016829212</text>
+    <view>(中外运单号)</view>
+    <view class="time">2020-06-22 10:17:50</view>
+  </view>
+</view>

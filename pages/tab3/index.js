@@ -5,14 +5,31 @@ Page({
    * 页面的初始数据
    */
   data: {
-    img: "/images/nodata1.png"
+    img: "/images/nodata1.png",
+    arr: [1,2,3]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    // 获取滚动区域高度
+    let query = wx.createSelectorQuery()
+    wx.getSystemInfo({
+      success: res => {
+        query.selectAll('.box_top').boundingClientRect(rect => {
+          let heightAll = 0;
+          rect.map((currentValue, index, arr) => {
+            heightAll = heightAll + currentValue.height
+          })
+          this.setData({
+            scrollheight: res.windowHeight - heightAll - 50
+          },()=>{
+            console.log(this.data.scrollheight)
+          })
+        }).exec();
+      }
+    })
   },
 
   /**

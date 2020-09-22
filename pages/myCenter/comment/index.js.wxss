@@ -97,12 +97,6 @@
   line-height: 40rpx;
   color: #FFF;
 }
-.blank_line {
-  margin-top: 40rpx;
-  background-color: #F6F7F9;
-  height: 20rpx;
-  width: 100%;
-}
 
 
 

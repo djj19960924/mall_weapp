@@ -1,0 +1,21 @@
+<!--component/h_shopList/h_shopList.wxml-->
+<view class="h_shopList">
+	<view class="shop_list" wx:for="{{shopList}}" wx:key="id">
+		<view class="single_shop">
+			<view class="shopDetail">
+				<image src="{{item.image}}"></image>
+				<view class="detail">
+					<view class="name">{{item.name}}</view>
+					<view class="price">￥{{item.price}}</view>
+					<view class="tax">
+						<text>含跨境税：￥{{item.tax}}</text>
+						<text class="number">*{{item.number}}</text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="all_price">
+		<text>共2件商品  实付金额:<text style="color:#FF0505;font-weight:bold">￥1028</text></text>
+	</view>
+</view>

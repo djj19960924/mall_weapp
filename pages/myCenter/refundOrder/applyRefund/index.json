@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "h_shopList": "../../../../component/h_shopList/h_shopList",
+    "h_blankLine": "../../../../component/h_blankLine/h_blankLine"
+  },
+  "navigationBarTitleText": "申请退款"
+}

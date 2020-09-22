@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "h_blankLine": "../../../../component/h_blankLine/h_blankLine",
+    "h_shopList": "../../../../component/h_shopList/h_shopList"
+  },
+  "navigationBarTitleText": "订单详情"
+}

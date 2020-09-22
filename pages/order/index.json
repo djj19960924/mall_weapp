@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "i-icon": "../../dist/icon/index",
+    "i-tabs": "../../dist/tabs/index",
+    "i-tab": "../../dist/tab/index",
+    "h_blankLine": "../../component/h_blankLine/h_blankLine",
+    "h_shopList": "../../component/h_shopList/h_shopList"
+  },
+  "navigationBarTitleText": "商品订单",
+  "disableScroll": true
+}

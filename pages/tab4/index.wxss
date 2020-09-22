@@ -87,7 +87,7 @@
 .goShop {
   width: 715rpx;
   height: 207rpx;
-  margin: 0 auto;
+  margin: 0 17.5rpx;
   background-position: center;
   background-size: cover;
   display: inline-block;
@@ -134,7 +134,7 @@
 }
 .myService_list {
   display: flex;
-  margin-top: 40rpx;
+  margin-top: 20rpx;
   flex-wrap: wrap;
 }
 .myService_detail {

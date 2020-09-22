@@ -1,2 +1,34 @@
 <!--pages/tab2/index.wxml-->
-<text>pages/tab2/index.wxml</text>
+<view class="sort">
+  <view class='search box_top'>
+    <view style='position:relative;width: calc(100%)'>
+      <input bindinput='inputSearch' class='searchInput' placeholder='搜索商品' placeholder-class='searchPlaceholder'></input>
+      <view bindtap='tapSearch' class='searchBtn'>
+        <i-icon size='20' color='#8F8F8F' type="search" />
+      </view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav_left">
+      <block wx:for="{{cateItems}}" wx:key="id">
+        <view class="nav_left_item {{curNav == item.id?'active':''}}"   bindtap="switchRightTab" data-index="{{index}}" data-id="{{item.id}}">
+          {{item.name}}
+        </view>
+      </block>
+    </view>
+
+    <view class="nav_right">
+      <view wx:if="{{cateItems[curIndex].subCateItems.length}}">
+        <view class="nav_right1">
+          <view class="nav_right_item" wx:for="{{cateItems[curIndex].subCateItems}}" wx:key="id">
+            <image src="{{item.image}}" />
+            <view class="text">{{item.name}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+</view>

@@ -1,8 +1,561 @@
 <!--pages/tab3/index.wxml-->
 
 <!-- nodata -->
-<h_nodata tips='购物车空空如也~' img="{{img}}"></h_nodata>
+<block wx:if="{{!arr.length}}">
+  <h_nodata tips='购物车空空如也~' img="{{img}}" ></h_nodata>
+  <view class="wanderAround">去逛逛</view>
+</block>
 
-<view class="wanderAround">
-  去逛逛
-</view>
+<block wx:else>
+  <view class="cart">
+    <view class="cart_top box_top">
+      <image src="../../images/unselectedIcon.png"></image>
+      <text>商品</text>
+    </view>
+    <scroll-view wx:if="{{arr.length}}" style="height:{{scrollheight}}px" scroll-y="true">
+      <view class="shopList">
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view><view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view><view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view><view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view><view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>1</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+        <view class="single_shop">
+          <image src="../../images/unselectedIcon.png" class="selectedIcon"/>
+          <view class="shop_detail">
+            <image src="../../images/shop/avatar.png"></image>
+            <view class="detail">
+              <view class="name">MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包MCM女包复古印花logo单肩包印花单肩包</view>
+              <view class="price">￥514</view>
+              <view class="tax">
+                <view>含跨境税：￥0</view>
+                <view class="number">
+                  <text class="subtract">-</text>
+                  <text>2</text>
+                  <text class="add">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+
+        </view>
+
+      </view>
+    </scroll-view>
+    
+    <view class="cart_bottom">
+      <view>
+        <image src="../../images/unselectedIcon.png">
+        </image>
+        <text style="color: #A9A9A9;font-size: 24rpx;">全选</text>
+      </view>
+      <view class="bottom_btn">
+        <text>总计:<text style="color:#FF1F1F;font-size:30rpx;font-weight:bold">￥1028</text></text>
+        <text class="settlement">去结算</text>
+      </view>
+    </view>
+  </view>
+</block>

@@ -1,0 +1,57 @@
+/* pages/shop/shopDetail/comment/index.wxss */
+.comment_top {
+  width: 120rpx;
+  height: 35rpx;
+  background: #DBC191;
+  color: #FFF;
+  font-size: 20rpx;
+  text-align: center;
+  line-height: 35rpx;
+  border-radius: 20rpx;
+  margin: 25rpx;
+}
+.blank_line {
+  margin-top: 40rpx;
+  background-color: #F6F7F9;
+  height: 20rpx;
+  width: 100%;
+}
+.all_comment {
+  margin: 25rpx 25rpx 50rpx;
+  font-size: 28rpx;
+
+}
+.single_comment {
+  margin-top: 80rpx;
+}
+.single_comment:first-child {
+  margin-top: 0;
+}
+.comment_avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #A4A4A4;
+  font-size: 26rpx;
+}
+.comment_avatar image {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  margin-right: 15rpx;
+  vertical-align: middle;
+}
+.comment_content {
+  margin-top: 10rpx;
+}
+.comment_image {
+  display: flex;
+  margin-top: 20rpx;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.comment_image image {
+  width: 225rpx;
+  height: 225rpx;
+  margin-top: 10rpx;
+}

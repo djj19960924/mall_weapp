@@ -1,0 +1,19 @@
+/* pages/order/orderDetail/track/index.wxss */
+
+.track {
+  font-size: 28rpx;
+}
+.track_orderSn {
+  font-size: 34rpx;
+  font-weight: bold;
+  margin-left: 25rpx;
+  border-bottom: 2rpx solid #F6F6F6;
+  padding: 20rpx;
+}
+.track_content {
+  margin: 33rpx 48rpx;
+}
+.track_content .time {
+  color: #BEBEBE;
+  font-size: 24rpx;
+}

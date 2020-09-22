@@ -1,0 +1,17 @@
+<!--pages/order/orderDetail/applyRefund/index.wxml-->
+<view class="applyRefund">
+  <view class="shop_info">
+    <view class="shop_title">商品信息</view>
+    <h_shopList shopList="{{shopList}}"/>
+  </view>
+  
+  <h_blankLine />
+  <view class="refund_reason">
+    退款原因：清关失败，额度超出限制
+  </view>
+  <h_blankLine />
+
+  <view class="refund_submit">
+    <view class="submit_text">提交</view>
+  </view>
+</view>

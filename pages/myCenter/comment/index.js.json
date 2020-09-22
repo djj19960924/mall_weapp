@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "i-tabs": "../../../dist/tabs/index",
-    "i-tab": "../../../dist/tab/index"
+    "i-tab": "../../../dist/tab/index",
+    "h_blankLine": "../../../component/h_blankLine/h_blankLine"
   },
   "disableScroll": true,
   "navigationBarTitleText": "我的评价"

@@ -1,0 +1,2 @@
+<!--component/h_blankLine/h_blankLine.wxml-->
+<view class="blank_line" />

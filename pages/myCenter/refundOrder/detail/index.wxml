@@ -1,0 +1,90 @@
+<!--pages/myCenter/refundOrder/detail/index.wxml-->
+<view class="refund_order">
+	<view class="order_top">
+		<view class="top_text">
+			<view style="font-size:34rpx">发货失败</view>
+			<view>订单发货失败，可发起退款</view>
+		</view>
+	</view>
+	<view class="orderSn">
+		订单编号：BHON00001
+		<text class="copy">复制</text>
+	</view>
+	<h_blankLine />
+	<view class="refund_reason" wx:if="{{true}}">
+		<text style="font-weight:bold;font-size:34rpx">退款原因：</text>清关失败，额度超出限制
+	</view>
+	<h_blankLine />
+	<block wx:if="{{true}}">
+		<view class="info_template">
+			<view class="info_detail">
+				<view class="logisticsIcon">
+          <view class="iconfont iconwuliuchaxun" />
+					<!-- <image src="../../../../images/order/logisticsIcon.png"></image> -->
+				</view>
+				<view class="info_text">
+					<view>您的订单海关申报失败，可申请退款</view>
+					<view>失败原因：超出个人跨境限额</view>
+					<view class="time">2020-06-22 10:17:50</view>
+				</view>
+			</view>
+			<view class="arrow">
+        <view class="iconfont icondibudaohanglan-"></view>
+				<!-- <image src="../../../../images/shop/arrowIcon.png"></image> -->
+			</view>
+		</view>
+		<h_blankLine />
+		<view class="address_template">
+			<view class="address_detail ">
+				<view class="addressIcon">
+          <view class="iconfont iconlocation"></view>
+					<!-- <image src="../../../../images/order/addressIcon.png"></image> -->
+				</view>
+				<view class="address_text">
+					<view>张倩倩
+						<text style="color:#F76766">15912581359</text>
+					</view>
+					<view>江苏省南京市鼓楼区赛城国际大厦1213国际大厦</view>
+				</view>
+			</view>
+		</view>
+		<h_blankLine />
+	</block>
+
+	<view class="shop_info">
+		<view class="shop_title">商品信息</view>
+		<h_shopList shopList="{{shopList}}" />
+	</view>
+	<h_blankLine />
+
+	<view class="order_count">
+		<view class="list_template">
+			<text>商品金额</text>
+			<text>￥1028</text>
+		</view>
+		<view class="list_template">
+			<text>跨境税(商品已包含)</text>
+			<text>+￥0</text>
+		</view>
+		<view class="list_template">
+			<text>总计</text>
+			<text>￥1028</text>
+		</view>
+		<view class="list_template">
+			<text class="actual_text">已支付金额</text>
+			<text class="actual_number">￥1028</text>
+		</view>
+		<view class="list_template">
+			<text>下单时间</text>
+			<text>2019-11-06 12:57</text>
+		</view>
+		<view class="list_template">
+			<text>支付时间</text>
+			<text>2019-11-06 12:57</text>
+		</view>
+		<view class="confirm_btn" wx:if="{{false}}">
+			<text class="confirm_order">申请退款</text>
+		</view>
+	</view>
+
+</view>

@@ -1,0 +1,7 @@
+/* component/h_blankLine/h_blankLine.wxss */
+.blank_line {
+  margin-top: 40rpx;
+  background-color: #F6F7F9;
+  height: 20rpx;
+  width: 100%;
+}

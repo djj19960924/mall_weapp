@@ -1,0 +1,103 @@
+/* pages/myCenter/myCollect/index.wxss */
+.myCollect {
+  font-size: 28rpx;
+}
+.collect_top {
+  margin: 20rpx;
+  display: flex;
+  justify-content: space-between;
+
+}
+.all {
+  height: 40rpx;
+  width: 120rpx;
+  border-radius: 20rpx;
+  color: #fff;
+  background-color: #DBC191;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 20rpx;
+}
+.blank_line {
+  margin-top: 20rpx;
+  background-color: #F6F7F9;
+  height: 20rpx;
+  width: 100%;
+}
+.shopList {
+  display: flex;
+  margin: 0 20rpx;
+  flex-wrap: wrap;
+}
+
+.singleShop {
+  box-sizing:border-box;
+  width:50%;
+  height: 450rpx;
+  margin-top: 80rpx;
+  position: relative;
+}
+.singleShop:first-child {
+  margin-top: 50rpx;
+}
+.singleShop:nth-child(2) {
+  margin-top: 50rpx;
+}
+.shopImg {
+  text-align: center;
+}
+.shopImg image {
+  width: 310rpx;
+  height: 310rpx;
+}
+.shopName {
+  width: 350rpx;
+  height: 80rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 20rpx;
+}
+.shopPrice {
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  color:#FF3232;
+}
+.selectedIcon {
+  width: 38rpx;
+  height: 38rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.collect_bottom {
+  height: 100rpx;
+  width: 100%;
+  border-top: 2rpx solid #F2F2F2; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom:0
+}
+.collect_bottom image {
+  width: 38rpx;
+  height: 38rpx;
+  margin-left: 30rpx;
+  vertical-align: text-bottom;
+  margin-right: 20rpx;
+}
+
+.settlement {
+  height: 100rpx;
+  width: 250rpx;
+  background-color: #000;
+  color: #fff;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 36rpx;
+}

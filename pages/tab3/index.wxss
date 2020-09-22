@@ -1,5 +1,127 @@
 /* pages/tab3/index.wxss */
+.cart {
+  font-size: 28rpx;
+}
+.cart_top {
+  margin: 0 30rpx;
+  border-bottom: 1rpx solid #F6F6F6;
+  padding-bottom: 20rpx;
+}
 
+.cart_top image {
+  width: 38rpx;
+  height: 38rpx;
+  vertical-align: text-bottom;
+  margin-right: 20rpx;
+}
+.cart_top text {
+  font-weight: bold;
+}
+.shopList {
+  margin: 0rpx 30rpx;
+}
+.single_shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shop_detail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200rpx;
+  width: 660rpx;
+  border-bottom: 1rpx solid #F6F6F6;
+  padding-bottom: 10rpx;
+}
+.shop_detail image {
+  width:140rpx;
+  height: 140rpx;
+  margin-right: 40rpx;
+}
+.shop_detail .detail {
+  width: 425rpx;
+}
+
+.shop_detail .detail .name{
+  height: 80rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.detail .price {
+  margin: 10rpx 0 0 0;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #FF2020;
+}
+.tax {
+  display: flex;
+  justify-content: space-between;
+  color: #A9A9A9;
+  font-size: 24rpx;
+}
+.number {
+  width: 130rpx;
+  height: 40rpx;
+  border: 1rpx solid #F0F0F0;
+  font-size: 24rpx;
+  color: #000;
+}
+.number text {
+  display: inline-block;
+  width: 33.3%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.add {
+  border-left: 1rpx solid #F0F0F0;
+}
+.subtract {
+  border-right: 1rpx solid #F0F0F0;
+}
+
+.selectedIcon {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+.cart_bottom {
+  height: 100rpx;
+  width: 100%;
+  border-top: 2rpx solid #F2F2F2; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart_bottom image {
+  width: 38rpx;
+  height: 38rpx;
+  margin-left: 30rpx;
+  vertical-align: text-bottom;
+  margin-right: 20rpx;
+}
+
+.bottom_btn {
+  color: #000;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: flex-end;
+  width: 460rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom_btn .settlement {
+  height: 100rpx;
+  width: 250rpx;
+  background-color: #000;
+  color: #fff;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
 .wanderAround {
   width: 350rpx;
   height: 75rpx;

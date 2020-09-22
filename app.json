@@ -1,18 +1,27 @@
 {
   "pages": [
+    "pages/myCenter/myCollect/index",
+    "pages/shop/index",
     "pages/shop/shopDetail/index.js",
+    "pages/tab3/index",
+    "pages/tab4/index",
+    "pages/tab2/index",
+    "pages/order/confirmOrder/index",
+    "pages/myCenter/refundOrder/detail/index",
+    "pages/myCenter/refundOrder/index",
+    "pages/myCenter/refundOrder/applyRefund/index",
+    "pages/order/index",
+    "pages/order/orderDetail/index",
+    "pages/order/orderDetail/track/index",
+    "pages/shop/shopDetail/comment/index",
     "pages/myCenter/address/myAddress/index.js",
     "pages/myCenter/address/index.js",
     "pages/myCenter/comment/index.js",
     "pages/myCenter/comment/myComment/index.js",
-    "pages/tab4/index",
     "pages/tab1/index",
-    "pages/tab2/index",
-    "pages/tab3/index",
     "pages/index/index"
   ],
-  "subpackages": [
-  ],
+  "subpackages": [],
   "window": {
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "跨境商城",

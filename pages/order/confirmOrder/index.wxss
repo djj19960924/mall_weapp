@@ -1,0 +1,163 @@
+/* pages/order/confirmOrder/index.wxss */
+.confirmOrder {
+  font-size: 28rpx;
+  margin-bottom:70px;
+}
+.confirmOrder_top {
+  height: 100rpx;
+  width: 100%;
+  background: #F1DEBC;
+  color: #B49F79;
+  font-size: 24rpx;
+  display: flex;
+  align-items: center;
+}
+.warn_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 690rpx;
+  margin-left: 40rpx;
+}
+.warn_info image {
+  width: 45rpx;
+  height: 45rpx;
+}
+.warn_text {
+  width: 630rpx;
+}
+.ship_address {
+  margin: 0 40rpx;
+}
+.ship_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 34rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+}
+.ship_title image {
+  width: 16rpx;
+  height: 22rpx;
+}
+.address_detail {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+}
+.address_detail image{
+  width: 39rpx;
+  height: 47rpx;
+  margin-right: 35rpx;
+}
+.divider {
+  margin: 0 auto;
+}
+.divider image {
+  height: 10rpx;
+  width: 748rpx;
+}
+.blank_line {
+  margin-top: 40rpx;
+  background-color: #F6F7F9;
+  height: 20rpx;
+  width: 100%;
+}
+.shop_info {
+  margin: 0 40rpx;
+}
+.shopDetail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200rpx;
+  width: 100%;
+  border-bottom: 2rpx solid #F6F6F6;
+  padding-bottom: 10rpx;
+}
+.shopDetail image {
+  width:140rpx;
+  height: 140rpx;
+  margin-right: 40rpx;
+}
+.shopDetail .detail {
+  width: 490rpx;
+}
+.shopDetail .detail .name{
+  height: 80rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.detail .price {
+  margin: 10rpx 0 0 0;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #FF2020;
+}
+.tax {
+  display: flex;
+  justify-content: space-between;
+  color: #A9A9A9;
+  font-size: 24rpx;
+}
+.tax .number{
+  color: #000;
+}
+.all_price {
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order_count {
+  margin: 30rpx 40rpx 0 40rpx;
+} 
+.list_template {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+.actual_text {
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.actual_number {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #FF2020;
+}
+.confirm_bottom {
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  width: 100%;
+  border-top: 2rpx solid #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+  background: #fff;
+}
+.confirm_text {
+  line-height: 100rpx;
+  font-size: 28rpx;
+  margin-left: 40rpx;
+}
+.actual_paid {
+  font-weight: bold;
+  color: #FF3B3B;
+  font-size: 30rpx;
+}
+.confirm_btn {
+  width: 255rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #FFF;
+  background: #000;
+  font-size: 36rpx;
+}

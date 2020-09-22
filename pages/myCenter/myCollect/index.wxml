@@ -1,0 +1,106 @@
+<!--pages/myCenter/myCollect/index.wxml-->
+<view class="myCollect">
+  <view class="collect_top">
+    <view class="all">
+      全部(436)
+    </view>
+    <view>管理</view>
+  </view>
+
+  <view class="blank_line box_top" />
+
+  <scroll-view wx:if="{{shopList.length}}" style="height:{{scrollheight}}px" scroll-y="true" class="scrllo_H " >
+    <view class="shopList">
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 10片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+      <view class="singleShop">
+        <view class="shopImg">
+          <image src="http://buyershouse-mall.oss-cn-hangzhou.aliyuncs.com/product-img/1593743317721.jpg?Expires=1909103312&OSSAccessKeyId=LTAI4G5TA7ebp3Trx26SJqRm&Signature=RN7cvFY8rLWdTgW%2BeADbhRf%2BXFw%3D"></image>
+        </view>
+        <view class="shopName">俪泊兰露芙兰水光面膜两部曲 12片</view>
+        <view class="shopPrice">￥514</view>
+        <image src="../../../images/unselectedIcon.png" class="selectedIcon"></image>
+      </view>
+    </view>
+  </scroll-view>
+
+  <!-- <view class="collect_bottom">
+    <view>
+      <image src="../../../images/unselectedIcon.png">
+      </image>
+      <text style="color: #A9A9A9;font-size: 24rpx;">全选</text>
+    </view> 
+    <view class="settlement">删除</view>
+  </view> -->
+</view>

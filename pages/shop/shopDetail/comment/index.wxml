@@ -1,0 +1,53 @@
+<!--pages/shop/shopDetail/comment/index.wxml-->
+<view class="comment">
+	<view class="comment_top">
+		全部(436)
+	</view>
+	<view class="blank_line" />
+	<view class="all_comment">
+		<view class="single_comment">
+			<view class="comment_avatar">
+				<view class="avatar">
+					<image src="../../../../images/shop/avatar.png"></image>
+					<text>圆圆****</text>
+				</view>
+				<view>
+					<i-rate disabled="{{true}}" value="5" size="16">
+						<text style="font-size:26rpx">超级推荐</text>
+					</i-rate>
+				</view>
+			</view>
+			<view class="comment_content">
+				买了一瓶用了一个月，又下单一瓶，太好用了，清爽不油腻，细腻毛孔，推荐给敏感肌。。
+			</view>
+			<view class="comment_image">
+				<image src="../../../../images/shop/avatar.png"></image>
+				<image src="../../../../images/shop/avatar.png"></image>
+				<image src="../../../../images/shop/avatar.png"></image>
+				<image src="../../../../images/shop/avatar.png"></image>
+			</view>
+		</view>
+    <view class="single_comment">
+			<view class="comment_avatar">
+				<view class="avatar">
+					<image src="../../../../images/shop/avatar.png"></image>
+					<text>圆圆****</text>
+				</view>
+				<view>
+					<i-rate disabled="{{true}}" value="5" size="16">
+						<text style="font-size:26rpx">超级推荐</text>
+					</i-rate>
+				</view>
+			</view>
+			<view class="comment_content">
+				买了一瓶用了一个月，又下单一瓶，太好用了，清爽不油腻，细腻毛孔，推荐给敏感肌。。
+			</view>
+			<view class="comment_image">
+				<image src="../../../../images/shop/avatar.png"></image>
+				<image src="../../../../images/shop/avatar.png"></image>
+				<image src="../../../../images/shop/avatar.png"></image>
+				<image src="../../../../images/shop/avatar.png"></image>
+			</view>
+		</view>
+	</view>
+</view>

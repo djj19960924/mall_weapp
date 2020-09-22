@@ -39,9 +39,8 @@
           <view>去评价</view>
         </view>
       </view>
-      <view class="blank_line" />
+      <h_blankLine />
     </view>
-    
   </scroll-view>
 
 

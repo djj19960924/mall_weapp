@@ -1,0 +1,19 @@
+<!--pages/myCenter/refundOrder/index.wxml-->
+<view class="refundOrder box_top">
+  <scroll-view wx:if="{{orderList.length}}" style="height:{{scrollheight}}px" scroll-y="true" bindscrolltolower="more">
+    <view class="order_list" wx:for="{{orderList}}" wx:key="item">
+      <view class="single_order">
+        <view class="order_time">
+          <text>下单时间：2020-03-31 17:31:41</text>
+          <text style="color:#F87170">等待收货</text>
+        </view>
+        <h_shopList shopList="{{shopList}}"/>
+        <view class="look_detail">
+          <text class="cancel_order">申请退款</text>
+          <text class="look_order">查看详情</text>
+        </view>
+      </view>
+      <h_blankLine />
+    </view>
+  </scroll-view>
+</view>

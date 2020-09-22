@@ -65,23 +65,28 @@
 		</view>
     <view class="myService_list">
 			<view class="myService_detail">
-				<image src="../../images/myCenter/addressIcon.jpg" />
+				<view class="iconfont icondizhiguanli"></view>
+				<!-- <image src="../../images/myCenter/addressIcon.jpg" /> -->
 				<view>地址管理</view>
 			</view>
 			<view class="myService_detail" bindtap="toCustomer">
-				<image src="../../images/myCenter/customInfoIcon.jpg" />
+				<view class="iconfont iconcredentials_icon"></view>
+				<!-- <image src="../../images/myCenter/customInfoIcon.jpg" /> -->
 				<view>清关信息</view>
 			</view>
       <view class="myService_detail">
-				<image src="../../images/myCenter/personInfoIcon.jpg" />
+				<view class="iconfont icongerenxinxi"></view>
+				<!-- <image src="../../images/myCenter/personInfoIcon.jpg" /> -->
 				<view>个人信息</view>
 			</view>
       <view class="myService_detail">
-				<image src="../../images/myCenter/attentionIcon.jpg" />
+				<view class="iconfont iconxin"></view>
+				<!-- <image src="../../images/myCenter/attentionIcon.jpg" /> -->
 				<view>关注我们</view>
 			</view>
       <view class="myService_detail">
-        <image src="../../images/myCenter/serviceIcon.jpg" />
+				<view class="iconfont iconlianxi"></view>
+        <!-- <image src="../../images/myCenter/serviceIcon.jpg" /> -->
         <view>联系客服</view>
       </view>
 		</view>
