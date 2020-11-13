@@ -1,0 +1,64 @@
+/* pages/center/index.wxss */
+page {
+  background-color: #EEEEF0;
+}
+.center_main {
+  font-size: 28rpx;
+}
+.avatar_bg {
+  width: 750rpx;
+  height: 350rpx;
+  background-position: center;
+  background-size: cover;
+  color: #FFF;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.avatar_bg image {
+  width: 130rpx;
+  height: 130rpx;
+}
+.cargo_status{
+  background-color: #FFF;
+  height: 100rpx;
+  display: flex;
+  box-sizing: content-box;
+  
+}
+.cargo_status image{
+  width: 44rpx;
+  height: 38rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.cargo_status text {
+  vertical-align: middle;
+}
+.status {
+  width: 50%;
+  border-right: 1rpx solid #F2F2F2;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.list_template {
+  background-color: #FFF;
+  margin-top: 20rpx;
+  height: 100rpx;
+}
+.template {
+  margin-left: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  
+}
+.list_template image {
+  width: 36rpx;
+  height: 36rpx;
+  vertical-align: middle;
+}
+.list_template text {
+  vertical-align: middle;
+  margin-left: 40rpx
+}

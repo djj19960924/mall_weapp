@@ -1,0 +1,25 @@
+<!--pages/center/clerkManage/index.wxml-->
+<view class="clerkManage">
+  <view class="clerkManage_top">
+    <view class="clerkManage_title">店员管理</view>
+    <view class="clerkManage_note">添加店员，一起协助管理</view>
+  </view>
+  <view class="clerkManage_content">
+    <view class="add_title">已添加 (0)</view>
+    <view class="add_clerk">
+      <image src="../../../images/bill/addIcon.png"></image>
+      <text>添加店员</text>
+    </view>
+    <view class="clerk_list">
+      <view class="single_clerk">
+        <view class="single_clerk_left">
+          <image src="../../../images/bill/avatarIcon.png"></image>
+          <text>QQZ</text>
+        </view>
+        <view class="iconfont icondibudaohanglan-"></view>
+      </view>
+      
+    </view>
+  </view>
+  
+</view>

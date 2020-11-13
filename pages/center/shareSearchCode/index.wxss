@@ -1,0 +1,45 @@
+/* pages/center/shareSearchCode/index.wxss */
+page {
+  background-color: #EEEEF0;
+}
+.shareSearchCode {
+  font-size: 28rpx;
+}
+.shareSearchCode_main {
+  margin: 140rpx 20rpx;
+  height: 850rpx;
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  font-size: 24rpx;
+}
+.avatarIcon {
+  position: absolute;
+  width: 150rpx;
+  height: 150rpx;
+  left: 280rpx;
+  top: -75rpx;
+}
+.nickname {
+  padding-top: 90rpx;
+  font-size: 28rpx;
+}
+.scan {
+  width: 258rpx;
+  height: 258rpx;
+  margin: 20rpx 0;
+}
+.share_btn {
+  margin: 50rpx 0 30rpx 0;
+  display: inline-block;
+  width: 300rpx;
+  height: 75rpx;
+  line-height: 75rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: #fff;
+  background-color: #1F835D;
+}
+.copy_note {
+  font-size: 24rpx;
+}

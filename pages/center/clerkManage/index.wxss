@@ -1,0 +1,52 @@
+/* pages/center/clerkManage/index.wxss */
+.clerkManage {
+  font-size: 28rpx;
+}
+
+.clerkManage_top {
+  text-align: center;
+}
+.clerkManage_title {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin: 20rpx 0;
+}
+.clerkManage_content {
+  margin: 40rpx 20rpx;
+}
+.add_title {
+  color: #B6B6B6;
+  font-size: 24rpx;
+  border-bottom: 1px solid #F2F2F2;
+  padding-bottom: 20rpx;
+}
+.add_clerk {
+  padding: 20rpx 0;
+  border-bottom: 1px solid #F2F2F2;
+}
+.add_clerk image {
+  width: 35rpx;
+  height: 35rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.add_clerk text {
+  vertical-align: middle;
+  color: #4A9B7C;
+}
+
+.single_clerk {
+  border-bottom: 1px solid #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.single_clerk image {
+  width: 55rpx;
+  height: 55rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.single_clerk text {
+  vertical-align: middle;
+}

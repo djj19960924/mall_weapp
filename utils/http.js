@@ -8,7 +8,6 @@ class Http {
       method,
       data,
     });
-    
     return res.data;
   }
 };

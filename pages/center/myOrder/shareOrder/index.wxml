@@ -1,0 +1,45 @@
+<!--pages/center/myOrder/orderDetail/index.wxml-->
+<view class="shareOrder_main">
+  <view class="detail">
+    <view class="avatar"> 
+      <image src="../../../../images/bill/avatarIcon.png"></image>
+      <view class="nickName">QQZ</view>
+    </view>
+    <view class="order_title">
+      <view>
+        <text class="title">订单号:</text>
+        BH1234582
+      </view>
+      <view>
+        <text class="title">下单时间:</text>
+        2020-10-21 13:40:14
+      </view>
+    </view>
+    <view class="order_person">
+      <view>张倩倩 13260771839</view>
+      <view>江苏省南京市鼓楼区赛城国际大厦1216</view>
+    </view>
+    <view class="order_note">
+      <view>订单备注:</view>
+      <view class="content">
+        <view>后whoo 青花瓷 循环精华130ml 礼盒装368</view>
+        <view>膳魔师保温杯504红色: 148</view>
+        <view>膳魔师保温杯504粉色: 148</view>
+        <view>合计一共: 664+快递8=672元</view>
+      </view>
+    </view>
+    <view class="dividLine">
+      <image src="../../../../images/bill/dividLine.png"></image>
+    </view>
+    <view class="pay_bottom">
+      <image src="../../../../images/bill/scan.png"></image>
+      <view>支付宝收款码</view>
+      <view class="pay_note">请付款成功后截图给客服核对</view>
+    </view>
+  </view>
+
+  <view class="detail_features">
+    <view class="btn copy">复制订单信息</view>
+    <view class="btn share">分享此图片</view>
+  </view>
+</view>

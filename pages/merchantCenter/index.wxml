@@ -1,0 +1,42 @@
+<!--pages/merchantCenter/index.wxml-->
+<view class="merchantCenter_main">
+  <view class="avatar_bg" style="background-image:url(../../../../images/bill/merchantCenterbg.png)">
+    <image src="../../images/bill/avatarIcon.png"></image>
+    <view class="nickName">QQZ</view>
+  </view>
+  <view class="apply_merchant">
+    <image src="../../images/bill/addCenterIcon.png"></image>
+    <view>申请成为商家</view>
+  </view>
+  <view class="menu_nav">
+    <view class="sing_list">
+      <view class="sing_list_left">
+        <image src="../../images/bill/billIcon.png"></image>
+        <text>三快递</text>
+      </view>
+      <view class="arrow iconfont icondibudaohanglan-"></view>
+    </view>
+
+    <view class="sing_list">
+      <view class="sing_list_left">
+        <image src="../../images/bill/shareIcon.png"></image>
+        <text>报价单</text>
+      </view>
+      <view class="arrow iconfont icondibudaohanglan-"></view>
+    </view>
+    <view class="sing_list">
+      <view class="sing_list_left">
+        <image src="../../images/bill/teamIcon.png"></image>
+        <text>账单</text>
+      </view>
+      <view class="arrow iconfont icondibudaohanglan-"></view>
+    </view>
+    <view class="sing_list">
+      <view class="sing_list_left">
+        <image src="../../images/bill/inviteIcon.png"></image>
+        <text>商城</text>
+      </view>
+      <view class="arrow iconfont icondibudaohanglan-"></view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,168 @@
+/* pages/center/myOrder/index.wxss */
+page {
+  background-color: #EEEEF0;
+}
+.myOrder_main {
+  z-index: 1;
+}
+.order {
+  font-size: 24rpx;
+  margin: 30rpx 25rpx;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order_list {
+  margin-top: 20rpx;
+}
+
+.single_order {
+  height: 560rpx;
+  background-color: #FFF;
+}
+.order_content {
+  margin: 20rpx;
+}
+.avatar image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.avatar {
+  padding-top: 20rpx;
+  display: flex;
+}
+.person_info {
+  margin-left: 20rpx;
+}
+.nickname {
+  font-size: 32rpx;
+}
+.look_info {
+  color: #499A7C;
+  margin-left: 20rpx;
+}
+.order_number {
+  position: relative;
+  margin: 20rpx 0;
+  border-bottom: 1rpx solid #F2F2F2;
+  padding-bottom: 20rpx;
+}
+.claim {
+  position: absolute;
+  color: #D7B179;
+  right: 0;
+  bottom: 20rpx;
+}
+.logistics {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #F2F2F2;
+  padding-bottom: 20rpx;
+}
+
+.logistics_info {
+  color: #808080;
+  font-size: 20rpx;
+}
+.ship_btn {
+  color: #499A7C
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #F2F2F2;
+  padding: 20rpx 0;
+  align-items: center;
+}
+
+.address_btn {
+  color: #499A7C
+}
+.note {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #F2F2F2;
+  padding: 20rpx 0;
+  align-items: center;
+}
+.note image {
+  width: 38rpx;
+  height: 33rpx;
+}
+.note input {
+  width: 500rpx;
+  overflow:hidden; 
+  white-space:nowrap;
+  text-overflow:ellipsis
+}
+.order_btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20rpx 0;
+}
+.cancel_btn {
+  width: 150rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  color: #A0A0A0;
+  text-align: center;
+  border: 1rpx solid #A0A0A0;
+  border-radius: 20rpx;
+  margin-right: 20rpx;
+}
+.share_btn {
+  width: 180rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  color: #499A7C;
+  text-align: center;
+  border: 1rpx solid #499A7C;
+  border-radius: 20rpx;
+}
+
+.mask{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 99;
+  opacity: 0.5;
+}
+
+.modalDlg{
+  color: #000;
+  width: 550rpx;
+  height: 280rpx;
+  position: fixed;
+  top: 50%;
+  z-index: 9999;
+  margin: -300rpx 100rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.model_content {
+  text-align: center;
+}
+
+.model_content image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 30rpx;
+}
+.copy_mobile {
+  margin-top: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copy_mobile text {
+  color: #499A7C;
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}

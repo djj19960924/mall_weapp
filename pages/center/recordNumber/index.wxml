@@ -1,0 +1,24 @@
+<!--pages/center/recordNumber/index.wxml-->
+<view class="recordNumber_main">
+  <view class="title">录入快递单号</view>
+  <view class="note">扫描快递单条码或手动输入单号</view>
+
+  <view class="input_write">
+    <view class="delivery_number">
+      <label>快递单号：</label>
+      <input type="text" placeholder="请输入" placeholder-style="font-size:28rpx"></input>
+    </view>
+    <view class="delivery_number">
+      <label>快递公司：</label>
+      <input type="text" placeholder="请输入" placeholder-style="font-size:28rpx"></input>
+    </view>
+  </view>
+
+  <view class="scan">
+    <image src="../../../images/bill/scanIcon.png"></image>
+    <view class="text">扫码录入</view>
+  </view>
+  <view class="features">
+    <view class="btn">确定</view>
+  </view>
+</view>

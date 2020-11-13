@@ -1,0 +1,52 @@
+/* pages/center/clerkDetail/index.wxss */
+page {
+  background-color: #EEEEF0;
+}
+.clerkDetail {
+  margin: 30rpx 20rpx;
+  font-size: 28rpx;
+}
+.avatar image {
+  width: 90rpx;
+  height: 90rpx;
+  vertical-align: middle;
+}
+.avatar text {
+  vertical-align: middle;
+  margin-left: 20rpx;
+}
+.clerkDetail_content {
+  margin-top: 20rpx;
+  height: 355rpx;
+  background-color: #FFF;
+}
+.content {
+  margin: 0rpx 20rpx;
+}
+.setting {
+  padding-top: 20rpx;
+  color: #A1A1A1;
+  font-size: 24rpx;
+  border-bottom: 1rpx solid #F3F3F3;
+  padding-bottom: 10rpx;
+}
+.only_find {
+  padding: 30rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #F3F3F3;
+ 
+}
+.find_note {
+  font-size: 24rpx;
+  color: #A1A1A1;
+}
+.clerkDetail_btn {
+  margin-top: 80rpx;
+  background-color: #FFF;
+  line-height: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  color: #2C8A67;
+}

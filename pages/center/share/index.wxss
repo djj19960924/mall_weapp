@@ -1,0 +1,50 @@
+/* pages/center/share/index.wxss */
+page {
+  background-color: #EEEEF0;
+}
+.share {
+  margin: 40rpx 35rpx;
+  font-size: 28rpx;
+}
+
+.qrCode_center {
+  margin: 50rpx 80rpx;
+  height: 620rpx;
+}
+.qrCode_bg {
+  height: 500rpx;
+  background-color: #1F835D;
+  color: #FFF;
+  text-align: center;
+  padding-top: 20rpx;
+}
+.qrCode_bg .text {
+  margin-top: 20rpx;
+}
+.qrCode_bg image {
+  width: 258rpx;
+  height: 258rpx;
+  margin: 20rpx 0; 
+}
+.qrCode_note {
+  height: 120rpx;
+  background-color: #FFF;
+  text-align: center;
+  line-height: 120rpx;
+}
+.features_bottom {
+  margin: 0rpx 200rpx;
+  margin-top: 100rpx;
+  height: 190rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+}
+.features {
+  text-align: center;
+}
+.features_bottom image {
+  width: 109rpx;
+  height: 109rpx;
+  margin-bottom: 20rpx;
+}

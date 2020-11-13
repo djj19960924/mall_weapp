@@ -1,0 +1,26 @@
+<!--pages/center/share/index.wxml-->
+<view class="share">
+  <view class="title_top"> 
+    您可通过以下两种功能，将二维码发给微信好友，好友即可通过二维码直接填写收货地址
+  </view>
+  <view class="qrCode_center">
+    <view class="qrCode_bg">
+      <view class="text">长按识别二维码</view>
+      <view>填写地址下单</view>
+      <image src="../../../images/bill/scan.png"></image>
+    </view>
+    <view class="qrCode_note">邀请客户填地址</view>
+  </view>
+
+  <view class="features_bottom">
+    <view class="features">
+      <image src="../../../images/bill/wechatIcon.png"></image>
+      <view>微信好友</view>
+    </view>
+    <view class="features">
+      <image src="../../../images/bill/savePictureIcon.png"></image>
+      <view>保存图片</view>
+    </view>
+  </view>
+
+</view>

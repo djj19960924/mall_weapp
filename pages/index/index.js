@@ -59,6 +59,17 @@ Page({
   //     url: 'http://127.0.0.1:9000/api/unionid',
   //   })
   // }
-
+  
+  ceshi() {
+    wx.chooseMessageFile({
+      count: 1,
+      type: 'file',
+      success (res) {
+        // // tempFilePath可以作为img标签的src属性显示图片
+        const tempFilePaths = res.tempFiles
+        console.log(tempFilePaths[0])
+      }
+    })
+  }
 
 })

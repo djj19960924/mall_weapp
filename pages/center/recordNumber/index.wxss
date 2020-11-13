@@ -1,0 +1,63 @@
+/* pages/center/recordNumber/index.wxss */
+page {
+  background-color: #EEEEF0;
+}
+.recordNumber_main {
+  font-size: 28rpx;
+}
+.title {
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  margin: 70rpx 0 30rpx;
+}
+.note {
+  text-align: center;
+}
+.input_write {
+  margin: 60rpx 55rpx;
+  background-color: #fff;
+  height: 240rpx;
+}
+.delivery_number {
+  margin: 0 40rpx;
+  padding-top: 40rpx;
+}
+.delivery_number:first-child {
+  border-bottom: 1rpx solid #F3F3F3;
+  padding-bottom: 20rpx;
+}
+input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 280rpx
+}
+label {
+  vertical-align:middle;
+  margin-right: 30rpx;
+}
+.scan {
+  text-align: center;
+}
+.scan image {
+  width: 132rpx;
+  height: 132rpx;
+}
+.text {
+  margin-top: 20rpx;
+  color: #469779;
+}
+.features {
+  margin: 170rpx 200rpx ;
+}
+.btn {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 36rpx;
+  background-color: #86B8A6;
+}
+.perfect {
+  background-color: #1F835D;
+}

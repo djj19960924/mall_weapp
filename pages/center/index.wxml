@@ -1,0 +1,35 @@
+<!--pages/center/index.wxml-->
+<view class="center_main">
+  <view class="avatar_bg" style="background-image:url(../../../../images/bill/person_bg.png)">
+    <image src="../../images/bill/avatarIcon.png"></image>
+    <view class="nickName">QQZ</view>
+  </view>
+  <view class="cargo_status">
+    <view class="status">
+      <image src="../../images/bill/deliveredIcon.png"></image>
+      <text>待发货</text>
+    </view>
+    <view class="status">
+      <image src="../../images/bill/receivedIcon.png"></image>
+      <text>已发货</text>
+    </view>
+  </view>
+  <view class="list_template">
+    <view class="template">
+      <image src="../../images/bill/billIcon.png"></image>
+      <text>我的账单</text>
+    </view>
+  </view>
+  <view class="list_template">
+    <view class="template">
+      <image src="../../images/bill/shareIcon.png"></image>
+      <text>分享查询页</text>
+    </view>
+  </view>
+  <view class="list_template">
+    <view class="template">
+      <image src="../../images/bill/teamIcon.png"></image>
+      <text>我的客户</text>
+    </view>
+  </view>
+</view>

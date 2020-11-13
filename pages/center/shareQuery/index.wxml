@@ -1,0 +1,30 @@
+<!--pages/center/shareQuery/index.wxml-->
+<view class="shareQuery">
+  <view class="title_top"> 
+    您可通过以下三种功能，将您的专属查询页分享到微信好友或微信群，也可以复制查询也连接，好友收到后即可通过您的分享直接查看快递物流信息
+  </view>
+  <view class="qrCode_center">
+    <view class="qrCode_bg">
+      <view class="text">长按识别二维码</view>
+      <view>输入姓名或手机号查询物流信息</view>
+      <image src="../../../images/bill/scan.png"></image>
+    </view>
+    <view class="qrCode_note">可查询我下面所有订单快递信息</view>
+  </view>
+
+  <view class="features_bottom">
+    <view class="features">
+      <image src="../../../images/bill/wechatIcon.png"></image>
+      <view>微信好友</view>
+    </view>
+    
+    <view class="features">
+      <image src="../../../images/bill/savePictureIcon.png"></image>
+      <view>保存图片</view>
+    </view>
+    <view class="features">
+      <image src="../../../images/bill/copyLinkIcon.png"></image>
+      <view>复制链接</view>
+    </view>
+  </view>
+</view>

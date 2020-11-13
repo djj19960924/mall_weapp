@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "i-rate": "../../../../dist/rate/index"
-  },
-  "navigationBarTitleText": "我的评价"
-}

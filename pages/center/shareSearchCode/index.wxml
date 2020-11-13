@@ -1,0 +1,12 @@
+<!--pages/center/shareSearchCode/index.wxml-->
+<view class="shareSearchCode">
+  <view class="shareSearchCode_main">
+    <image class="avatarIcon" src="../../../images/bill/avatarIcon.png"></image>
+    <view class="nickname">QQZ</view>
+    <image class="scan" src="../../../images/bill/scan.png"></image>
+    <view>客户长按识别二维码</view>
+    <view>通过收件人姓名手机号查询物流信息</view>
+    <view class="share_btn">分享查件码</view>
+    <view class="copy_note">复制查询链接</view>
+  </view>
+</view>

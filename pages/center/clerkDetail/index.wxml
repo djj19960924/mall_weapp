@@ -1,0 +1,31 @@
+<!--pages/center/clerkDetail/index.wxml-->
+<view class="clerkDetail">
+  <view class="avatar">
+    <image src="../../../images/bill/avatarIcon.png"></image>
+    <text>QQZ</text>
+  </view>
+  <view class="clerkDetail_content">
+    <view class="content">
+      <view class="setting">权限设置</view>
+      <view class="only_find">
+        <view class="only_find_text">
+          <view class="find_text">只查看和编辑自己邀请客户订单</view>
+          <view class="find_note">开启后，只能查看自己邀请客户下的订单</view>
+        </view>
+        <view class="switch">
+          <i-switch value="{{switch1}}" bind:change="onChange" slot="footer"></i-switch>
+        </view>
+      </view>
+      <view class="only_find">
+        <view class="only_find_text">
+          <view class="find_text">查看编辑所有客户带发货订单</view>
+          <view class="find_note">开启后，可查看所有客户下的订单</view>
+        </view>
+        <view class="switch">
+          <i-switch value="{{switch1}}" bind:change="onChange" slot="footer"></i-switch>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="clerkDetail_btn">移除店员</view>
+</view>

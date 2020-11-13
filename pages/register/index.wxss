@@ -1,0 +1,47 @@
+/* pages/register/index.wxss */
+.register {
+  font-size: 28rpx;
+}
+.register_top {
+  text-align: center;
+}
+.register_top_title {
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.input_write {
+  margin: 120rpx 30rpx;
+  height: 240rpx;
+}
+
+.input_name {
+  padding-top: 40rpx;
+  border-bottom: 1rpx solid #F3F3F3;
+  padding-bottom: 20rpx;
+  display: flex;
+}
+.input_name_left {
+  width: 170rpx;
+  vertical-align:middle;
+}
+input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 400rpx
+}
+.features {
+  text-align: center;
+  margin-top: 300rpx;
+}
+.btn {
+  display: inline-block;
+  width: 370rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 36rpx;
+  background-color: #1F835D;
+}

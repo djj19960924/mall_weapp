@@ -1,0 +1,134 @@
+/* pages/center/myOrder/orderDetail/index.wxss */
+page {
+  background-color: #EEEEF0;
+}
+.orderDetail_main {
+  margin: 25rpx;
+  font-size: 24rpx;
+}
+.order_status {
+  font-weight: bold;
+  font-size: 48rpx;
+}
+.order_tip {
+  margin: 20rpx 0;
+  color:#717171
+}
+
+.single_order {
+  height: 560rpx;
+  background-color: #FFF;
+}
+.order_content {
+  margin: 20rpx;
+}
+.avatar image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.avatar {
+  padding-top: 20rpx;
+  display: flex;
+}
+.person_info {
+  margin-left: 20rpx;
+}
+.nickname {
+  font-size: 32rpx;
+}
+.look_info {
+  color: #499A7C;
+  margin-left: 20rpx;
+}
+.order_number {
+  position: relative;
+  margin: 20rpx 0;
+  border-bottom: 1rpx solid #F2F2F2;
+  padding-bottom: 20rpx;
+}
+.claim {
+  position: absolute;
+  color: #D7B179;
+  right: 0;
+  bottom: 20rpx;
+}
+.logistics {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #F2F2F2;
+  padding-bottom: 20rpx;
+}
+
+.logistics_info {
+  color: #808080;
+  font-size: 20rpx;
+}
+.ship_btn {
+  color: #499A7C
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #F2F2F2;
+  padding: 20rpx 0;
+  align-items: center;
+}
+
+.address_btn {
+  color: #499A7C
+}
+.note {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #F2F2F2;
+  padding: 20rpx 0;
+  align-items: center;
+}
+.note image {
+  width: 38rpx;
+  height: 33rpx;
+}
+.note input {
+  width: 500rpx;
+  overflow:hidden; 
+  white-space:nowrap;
+  text-overflow:ellipsis
+}
+.order_btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20rpx 0;
+}
+.cancel_btn {
+  width: 150rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  color: #A0A0A0;
+  text-align: center;
+  border: 1rpx solid #A0A0A0;
+  border-radius: 20rpx;
+  margin-right: 20rpx;
+}
+.share_btn {
+  width: 180rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  color: #499A7C;
+  text-align: center;
+  border: 1rpx solid #499A7C;
+  border-radius: 20rpx;
+}
+
+.submit_btn {
+  margin-top: 200rpx;
+  text-align: center;
+}
+.submit_btn .btn {
+  display: inline-block;
+  height: 80rpx;
+  width: 370rpx;
+  line-height: 80rpx;
+  background-color: #1F835D;
+  color: #FFF;
+  font-size: 36rpx;
+}

@@ -1,0 +1,20 @@
+<!--pages/center/invite/index.wxml-->
+<view class="invite">
+  <view class="invite_main">
+    <view class="invite_main_title">
+      <image src="../../../images/bill/menuIcon.png"></image>
+      <text>店员扫描二维码加入</text>
+    </view>
+    <view class="invite_main_content">
+      <image class="avatar" src="../../../images/bill/avatarIcon.png"></image>
+      <view>我是店长QQZ</view>
+      <view>请用微信扫描小程序码成为店员</view>
+      <image class="scan" src="../../../images/bill/inviteScanIcon.png"></image>
+    </view>
+  </view>
+
+  <view class="invite_wechat">
+    <image src="../../../images/bill/addPersonIcon.png"></image>
+    <text>邀请微信朋友成为店员</text>
+  </view>
+</view>

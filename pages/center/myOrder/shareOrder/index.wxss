@@ -1,0 +1,77 @@
+/* pages/center/myOrder/orderDetail/index.wxss */
+page {
+  background-color: #EEEEF0;
+}
+.detail {
+  margin: 30rpx 50rpx;
+  background-color: #FFF;
+}
+.avatar {
+  text-align: center;
+  padding-top: 30rpx;
+  margin-bottom: 30rpx;
+  font-size: 30rpx;
+}
+.avatar image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.order_title {
+  margin:0 30rpx 10rpx 30rpx;
+  border-bottom: 1rpx solid #F8F8F8;
+  padding-bottom: 10rpx;
+}
+.order_person {
+  margin: 0 30rpx;
+  border-bottom: 1rpx solid #F8F8F8;
+  padding-bottom: 10rpx;
+}
+.title {
+  display: inline-block;
+  width: 160rpx;
+}
+.order_note {
+  margin: 10rpx 30rpx;
+}
+.content {
+  font-size: 24rpx;
+}
+.dividLine {
+  margin: 10rpx 30rpx;
+}
+.dividLine image {
+  width: 100%;
+  height: 2rpx;
+}
+.pay_bottom {
+  margin-top: 10rpx;
+  text-align: center;
+  padding-bottom: 20rpx;
+}
+.pay_bottom image {
+  width: 258rpx;
+  height: 258rpx;
+  font-size: 30rpx;
+}
+.pay_note {
+  font-size: 28rpx;
+}
+.detail_features {
+  margin: 50rpx 50rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.detail_features .btn {
+  width: 300rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.copy {
+  color: #1F835D;
+  border: 1rpx solid #9FC5B8;
+}
+.share {
+  background-color: #1F835D;
+  color: #FFF;
+}
